@@ -1,0 +1,34 @@
+{% load static %}
+
+<head>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.js">
+    </script>
+    <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/themes/ui-lightness/jquery-ui.css"
+        rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.acwing.com/static/jquery-ui-dist/jquery-ui.min.css">
+<!--    <script src="https://cdn.acwing.com/static/jquery/js/jquery-3.3.1.min.js"></script>-->
+    <link rel="stylesheet" href="{% static 'css/search_style.css' %}">
+</head>
+
+<body style="margin: 0">
+    <div id="search_00"></div>
+        <datalist id="rooms" class="rooms">
+            {% for room in all_classrooms %}
+            <option value="{{ room.name }}"></option>
+            {% endfor %}
+            {% for instructor in all_instructors %}
+            <option value="{{ instructor.name }}"></option>
+            {% endfor %}
+        </datalist>
+    <script type="module">
+        import {cr_search} from "{% static 'js/dist/search.js' %}";
+        document.body.addEventListener('touchstart', function() {});
+        $(document).ready(function(){
+            let classroom_search = new cr_search("search_00");
+        });
+        console.log("hello world");
+    </script>
+</body>

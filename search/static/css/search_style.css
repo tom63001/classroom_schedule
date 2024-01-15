@@ -1,0 +1,230 @@
+body{
+    background-color: #E8EBFF;
+}
+
+table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input_block {
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    box-shadow: none;
+    outline: none;
+    boarder: none;
+    border-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 16px;
+    gap: 8px;
+    top: 20vh;
+    margin: 0 auto;
+    width: 76vw;
+    height: 5.1vh;
+    background: #41455D;
+    border-radius: 1vh/*4px*/;
+    flex: none;
+    order: 1;
+    text-indent: 2vw;
+    flex-grow: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.7vh;
+    line-height: 5.1vh;
+    color: #B6BFF3;
+
+}
+
+.submit_button {
+    -webkit-appearance: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0 auto;
+    box-shadow: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 5px;
+    width: 43vw;
+    height: 4.7vh;
+    top: 25vh;
+
+    background: #4741DE;
+    border-radius: 40vw/*100px*/;
+
+    /* Inside auto layout */
+
+    overflow: hidden;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* Find Schedule */
+
+    font-family: 'Lexend', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    text-transform: capitalize;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.submit_button:hover {
+    -webkit-appearance: none;
+    display: flex;
+
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 5px;
+    box-shadow: none;
+    width: 43vw;
+    height: 4.7vh;
+    background: #2C2797;
+    border-radius: 100px;
+    outline: none;
+}
+
+.submit_button:active {
+    -webkit-appearance: none;
+    /* fill round corner icons=medium focus */
+    box-shadow: none;
+    margin: 0 auto;
+    box-sizing: border-box;
+    outline: none;
+
+    text-align: center;
+    /* Auto layout */
+
+
+
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 32px;
+    gap: 5px;
+
+    width: 43vw;
+    height: 4.7vh;
+    background: #4741DE;
+    border: 2px solid #B5CFE5;
+    border-radius: 100px;
+}
+
+.empty {
+    -webkit-appearance: none;
+    width: 100vw;
+    height: 15vh;
+}
+
+.empty2 {
+    -webkit-appearance: none;
+    width: 100vw;
+    height: 2vh;
+}
+
+.classroom_result {
+    -webkit-appearance: none;
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+    width: 75vw;
+}
+
+.classroom_result td, .classroom_result th {
+    /*border: 1px solid #ddd;*/
+    padding: 2vw;
+    width: 20vw;
+}
+
+.classroom_result tr:nth-child(even){
+    background-color: #F6F7FF;
+    width: 20vw;
+}
+
+.classroom_result tr:hover {
+    background-color: #BAB8FB;
+    width: 20vw;
+}
+
+.classroom_result th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #41455D;
+    color: #B6BFF3;
+    width: 20vw;
+}
+
+.table_wrap {
+    margin: 0 auto;
+    width: 60vw;
+}
+
+.classroom_result td:nth-child(1) {
+    width: 15%;
+}
+
+.rooms {
+    height: 50vh;
+    overflow: hidden;
+}
+
+.instructor_result {
+    -webkit-appearance: none;
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+    width: 75vw;
+}
+
+.instructor_result td, .instructor_result th {
+    /*border: 1px solid #ddd;*/
+    padding: 2vw;
+    width: 20vw;
+}
+
+.instructor_result tr:nth-child(even){
+    background-color: #F6F7FF;
+    width: 20vw;
+}
+
+.instructor_result tr:hover {
+    background-color: #BAB8FB;
+    width: 20vw;
+}
+
+.instructor_result th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #41455D;
+    color: #B6BFF3;
+    width: 20vw;
+}
+
+.instructor_result td:nth-child(1) {
+    width: 38%;
+}

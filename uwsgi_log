@@ -1,0 +1,96 @@
+*** Starting uWSGI 2.0.20 (64bit) on [Sat Jan 21 22:14:28 2023] ***
+compiled with version: 9.3.0 on 28 October 2021 05:02:51
+os: Linux-5.4.0-132-generic #148-Ubuntu SMP Mon Oct 17 16:02:06 UTC 2022
+nodename: e9232113b037
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/tom63001/classrooms
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/tom63001/classrooms
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.8.10 (default, Sep 28 2021, 16:10:42)  [GCC 9.3.0]
+Python main interpreter initialized at 0x5633274b7580
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 344232 bytes (336 KB) for 10 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5633274b7580 pid: 622 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 622)
+spawned uWSGI worker 1 (pid: 624, cores: 5)
+spawned uWSGI worker 2 (pid: 625, cores: 5)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.20 (64bit) on [Sat Jan 21 22:16:48 2023] ***
+compiled with version: 9.3.0 on 28 October 2021 05:02:51
+os: Linux-5.4.0-132-generic #148-Ubuntu SMP Mon Oct 17 16:02:06 UTC 2022
+nodename: e9232113b037
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/tom63001/classrooms
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/tom63001/classrooms
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 6
+Python version: 3.8.10 (default, Sep 28 2021, 16:10:42)  [GCC 9.3.0]
+Python main interpreter initialized at 0x56126f2f9e90
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 344232 bytes (336 KB) for 10 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x56126f2f9e90 pid: 637 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 637)
+spawned uWSGI worker 1 (pid: 639, cores: 5)
+spawned uWSGI worker 2 (pid: 640, cores: 5)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.20 (64bit) on [Sat Jan 21 22:17:50 2023] ***
+compiled with version: 9.3.0 on 28 October 2021 05:02:51
+os: Linux-5.4.0-132-generic #148-Ubuntu SMP Mon Oct 17 16:02:06 UTC 2022
+nodename: e9232113b037
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/tom63001/classrooms
+detected binary path: /usr/local/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/tom63001/classrooms
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 8
+Python version: 3.8.10 (default, Sep 28 2021, 16:10:42)  [GCC 9.3.0]
+Python main interpreter initialized at 0x55f9f47e10c0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 344232 bytes (336 KB) for 10 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55f9f47e10c0 pid: 650 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 650)
+spawned uWSGI worker 1 (pid: 652, cores: 5)
+spawned uWSGI worker 2 (pid: 653, cores: 5)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+goodbye to uWSGI.
